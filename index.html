@@ -12,14 +12,22 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/app.js"></script>
 </head>
-<body class="container">
+<body class="container-fluid">
 
 	<header>
 	</header>
 
-	<main id="a" class="col-12 centered">
-		<section id="affich" class="bg-info"></section>
-		
+	<main>
+	<div class="row">
+	<h1 class="h3 text-primary">Météo du Jour</h1>
+		<div class="col-md-2 col-md-offset-5">
+		<section id="affichJour" class="bg-info"></section>
+		</div>
+	</div>
+	<div class="row">
+	<h1 class="h3 text-primary">Météo de la semaine</h1>
+	<section id="affichSemaine" class="bg-info"></section>
+	</div>
 	</main>
 
 </body>
